@@ -1,0 +1,41 @@
+<html>
+	<head>
+	<title>this is a javascript page</title>
+	<script language="javascript">
+		function add()
+		{
+			var a=document.getElementById("in1").value;
+			var b=document.getElementById("in2").value;
+			document.getElementById("output").value=Number(a)+Number(b);
+
+
+
+		}
+		
+	</script>
+
+
+	</head>
+
+	<body bgcolor="yellow">
+					
+		
+		<div style="position:absolute;height:800;width:300;top:200;left:500">		
+		<form>
+					<fieldset >
+					<legend>Addition of Two Number</legend><br>
+					First  &nbsp &nbsp &nbsp :<input type="text" size=12 id="in1"><br><br>
+					Second:<input type="text"  size=12 id="in2"><br><br>
+					Result: <input type="text" id ="output" size="12">	
+					&nbsp&nbsp&nbsp
+					<br><br>
+					<center><input type="button" name="b1" value="Addition" onclick="add()">&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+					</center> 
+					</fieldset>	
+				</form>
+
+					
+		</div>				
+	</body>
+
+</html>
